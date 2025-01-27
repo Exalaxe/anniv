@@ -1,0 +1,139 @@
+body{
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-image: linear-gradient( to left, rgb(255, 178, 192), #ffe7b9);
+background-color: #000;    
+margin: 0;  
+overflow: hidden;  
+z-index: -1;
+}
+
+#sweet{
+    position: absolute;
+    top: 1%;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+#us{
+    font-family: consolas, sans-serif;
+    text-align: center;
+}
+
+#timer{
+    text-align: center;
+	font-size: 20px;
+}
+
+#typeDiv {
+	position: absolute;
+	top: 45%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 10%;
+	text-align: center;
+}
+
+#txt1 {
+	font-size: 23px;
+	text-align: center;
+	color: white;
+}
+#txt2 {
+	font-size: 23px;
+	text-align: center;
+	color: white;
+}
+
+#heart{
+    width: 100%;
+    height: 100%;
+}
+
+
+#heartTxt{
+	position: absolute;
+	vertical-align: middle;
+	top: 80%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 10%;
+	height: 8%;
+}
+
+#button{
+	background-image: url("turtle.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	background-position: center;
+	transition: 0.1s;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	cursor: pointer;
+}
+#button:active {
+	width: 92%;
+	height: 92%;
+}
+
+
+#clickMe{
+    display: block;
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+canvas{
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+#imgTxt{
+	position: absolute;
+	display: table;
+	vertical-align: middle;
+	top: 20%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 50%;
+
+}
+
+#img{
+	display: block;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: auto;
+	height: 500px;
+	object-fit: cover;
+}
+
+#Txt{
+	display: inline-block;
+	font-size: 17px;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+#tmp{
+	display: inline-block;
+	font-size: 17px;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
